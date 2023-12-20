@@ -1,15 +1,45 @@
 let hari=12
-let bulan='september'
+let bulan=9
 let tahun=2003
 
-switch (2) {
+switch (bulan) {
     case 1:
-        console.log(hari,bulan,tahun)
+        bulan="Januari"
         break;
     case 2:
-        console.log(tahun,bulan,hari)
+        bulan="Februari"
         break;
-
+    case 3:
+        bulan="Maret"
+        break;
+    case 4:
+        bulan="April"
+        break;
+    case 5:
+        bulan="Mei"
+        break;
+    case 6:
+        bulan="Juni"
+        break;
+    case 7:
+        bulan="Juli"
+        break;
+    case 8:
+        bulan="Agustus"
+        break;
+    case 9:
+        bulan="September"
+        break;
+    case 10:
+        bulan="Oktober"
+        break;
+    case 11:
+        bulan="November"
+        break;
+    case 12:
+        bulan="Desember"
+        break;
     default:
-        break;
+        break;       
 }
+console.log(hari, bulan, tahun)
