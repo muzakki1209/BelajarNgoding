@@ -66,7 +66,7 @@ let fifthWordLength = FifthWord4.length;
 
 // output soal 4
 console.log('First Word: ' + FirstWord4 + ', with length: ' + firstWordLength);
-console.log('First Word: ' + SecondWord4 + ', with length: ' + secondWordLength);
-console.log('First Word: ' + ThirdWord4 + ', with length: ' + thirdWordLength);
-console.log('First Word: ' + FourthWord4 + ', with length: ' + fourthWordLength);
-console.log('First Word: ' + FifthWord4 + ', with length: ' + fifthWordLength);
+console.log('Second Word: ' + SecondWord4 + ', with length: ' + secondWordLength);
+console.log('Third Word: ' + ThirdWord4 + ', with length: ' + thirdWordLength);
+console.log('Fourth Word: ' + FourthWord4 + ', with length: ' + fourthWordLength);
+console.log('Fifth Word: ' + FifthWord4 + ', with length: ' + fifthWordLength);
